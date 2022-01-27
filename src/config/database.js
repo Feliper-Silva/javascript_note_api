@@ -9,7 +9,8 @@ const MONGO_URL = process.env.MONGO_URL;
 mongoose
   .connect(MONGO_URL, {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    useCreateIndex: true
   })
   .then(console.log('Connection succesfull'))
   .catch(err => console.log(err));
