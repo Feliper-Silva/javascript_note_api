@@ -2,10 +2,12 @@ const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
 
-const MONGODB_URL = 'mongodb://localhost/javascriptNote';
+require('dotenv').config();
+
+const MONGO_URL = process.env.MONGO_URL;
 
 mongoose
-  .connect(MONGODB_URL, {
+  .connect(MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })

@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const Note = require('../../models/Note');
 const withAuth = require('../../midlewares/auth');
-const res = require('express/lib/response');
 
 router.post('/', withAuth, async (req, res) => {
   const { title, body } = req.body;
