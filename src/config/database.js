@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
-
-mongoose.Promise = global.Promise;
-
 require('dotenv').config();
+mongoose.Promise = global.Promise;
 
 const MONGODB_URL = process.env.MONGO_URL;
 
