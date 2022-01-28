@@ -12,5 +12,5 @@ mongoose
     useUnifiedTopology: true,
     useCreateIndex: true
   })
-  .then(console.log('Connection succesfull'))
+  .then(() => console.log('Connection succesfull'))
   .catch(err => console.log(err));
