@@ -5,7 +5,8 @@
 
 
 ### 📋 Sobre
-Clone Evernote é ideal para todos que precise fazer anotações! 
+Clone Evernote é ideal para todos que precise fazer anotações!
+
 - [Front-end](https://github.com/Feliper-Silva/client_evernote_clone)
 - [Back-end](https://github.com/Feliper-Silva/javascript_note_api)
 
