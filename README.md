@@ -1,47 +1,47 @@
-# Api clone Evernote
+<h1 align="center">Evernote Clone</h1>
 
-rotas, users e notas definidas na api.
+<h4 align="center"><img src="https://user-images.githubusercontent.com/84206933/153737887-4ca83389-5834-4b06-818d-d857dc25d290.png"/></h4>
 
-## Tecnologies:
 
-- NodeJs
 
-  - Express
-  - JWT
-  - BCrypt
-  - DotEnv
+### 📋 Sobre
+Clone Evernote é ideal para todos que precise fazer anotações! 
+- [Front-end](https://github.com/Feliper-Silva/client_evernote_clone)
+- [Back-end](https://github.com/Feliper-Silva/javascript_note_api)
 
-- Database( Não Relacional)
+### 🛠️ Tecnologias
 
-  - MongoDB
+- [NodeJs](https://nodejs.org/)
 
-- Editor:
-  - VsCode
+### 🔨 Framework:
 
-## inicialização:
+- [Express](https://expressjs.com/)
 
-Drives:
+### 📂 Package:
+- [JWT](https://www.npmjs.com/package/jsonwebtoken)
+- [Bcrypt](https://www.npmjs.com/package/bcrypt)
 
+### 🏦 Banco de dados:
+- [MongoDB](https://www.mongodb.com/)
+
+
+###  🚀 Como executar:
+clone o projeto é entre na pasta do mesmo:
 ```bash
-yarn
+$ git clone https://github.com/Feliper-Silva/javascript_note_api
+$ cd javascript_note_api
 ```
-
-or
-
+Para iniciá-lo, siga os passos abaixo:
 ```bash
-npm install
+# Instalar as dependências
+$ yarn
+
+# Iniciar o projeto
+$ node index.js
 ```
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
-Start:
+Lembrando que será necessário criar uma conta no Firebase e um projeto para disponibilizar um Realtime Database.
 
-```bash
-yarn nodemon
-```
-
-```bash
-npm run nodemon
-```
-
-## License
-
-MIT © [Felipe Silva](https://linkedin.com/in/Feliper-Silva/)
+### 📝 License
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Feliper-Silva/javascript_note_api/blob/main/LICENSE.md) para mais detalhes.
