@@ -48,7 +48,7 @@ Lembrando que se rodar o [Back-end](https://github.com/Feliper-Silva/javascript_
 # Inicie na porta :3001 o back-end
 # usei o nodemon no desenvolvimento:
 
- $ nodemon PORT:3001
+ $ PORT:3001 nodemon
 
 ```
 
